@@ -14,8 +14,6 @@ export default function LifeCyclePage() {
         console.log('LifeCyclePage 준비됨');
     }, []);
 
-    
-
     const handleClick = () => {
         setText('B');         // 버튼을 클릭하면 text 변수를 B로 변경
     }

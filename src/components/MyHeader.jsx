@@ -16,7 +16,7 @@ export default function MyHeader({email, islogin}) {
             <Link to="/login" className="header__btn header__btn--primary">
                 로그인
             </Link>
-                <RegisterBtn />
+                <RegisterBtn />      // 회원가입 버튼도 별도로 컴포넌트로 분리
             </>
         )
         
