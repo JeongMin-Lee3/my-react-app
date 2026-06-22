@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-
+import RegisterBtn from './RegisterBtn'
 export default function MyHeader({email, islogin}) {
 
     var ui;
@@ -16,9 +16,7 @@ export default function MyHeader({email, islogin}) {
             <Link to="/login" className="header__btn header__btn--primary">
                 로그인
             </Link>
-            <Link to="/signup" className="header__btn header__btn--outline">
-                회원가입
-            </Link>
+                <RegisterBtn />
             </>
         )
         
